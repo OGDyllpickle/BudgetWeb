@@ -1,0 +1,135 @@
+
+/* Reset some default browser styles */
+body {
+  background-color: #2C3333;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #180000;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding: 2% 5%;
+}
+
+.navbar .object button{
+  /* Remove the flex-direction property */
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 2% 4%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.navbar .date {
+  color: white;
+  font-weight: bold;
+}
+
+
+.container{
+  display:  flex;
+  justify-content: space-evenly;
+}
+
+.interface{
+  justify-content: center;
+  display: flex;
+}
+.interface .tab{
+  width: 500px;
+  height: 1000px;
+  background-color: #395B64;
+}
+
+.interface .tab .dashboard button{
+  width: 500px;
+  height: 50px;
+  background-color: #395B64;
+  border: none;
+  color: black;
+  padding: 2% 4%;
+  cursor:  pointer;
+  font-size: 18px;
+  transition: font-size 0.3s ease;
+
+}
+
+.interface .tab .dashboard button:hover{
+  background-color: #A5C9CA;
+  font-size: 20px;
+}
+
+
+.interface .border{
+  background-color: #A5C9CA;
+  border-style: inset;
+  width: 500px;
+  height: 1000px;
+}
+
+.box1 {
+  background-color: #9DB2BF;
+  display: flex;
+  height: 50px;
+  width: 500px;
+}
+.box2 {
+  border-style: solid;
+  border: 5px;
+  border-color: black;
+  text-align: center;
+  height: 50px;
+  width: 250px;
+}
+.box3 {
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #9DB2BF;
+  width: 500px;
+  height: 250px;
+
+}
+.list{
+  display: flex;
+  background-color: lightblue;
+  width: 500px;
+  height: 50px;
+}
+.list .text{
+  text-align: center;
+  height: 50px;
+  width: 250px;
+}
+
+.box4{
+  display: flex;
+  background-color: lightblue;
+  height: 50px;
+  width: 500px;
+}
+
+
+.interface .border p{
+  font-size: 12px;
+}
+
+.interface .border h1{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.interface .line{
+  display: flex;
+  background-color: #FF7700;
+  width: 500px;
+  justify-content: center;
+}
+.interface .line p{
+  font-size:  12px;
+  font-weight: bold;
+}
